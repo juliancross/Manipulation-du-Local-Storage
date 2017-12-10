@@ -1,0 +1,208 @@
+/*DEBUT DE LA FONT*/
+
+
+/*FIN DE LA FONT*/
+
+
+* {	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*html {
+	font-size:62.5%;  /* 1 rem pour 10px
+	font-family: sans-serif
+body {
+	font-size: 1.5rem; /* 15px */
+	/*16 multi 62.5% = 1 000rem /// exemple un élément à 10px il faut faire 16px/10-----*/
+
+html{
+	font-size:62.5%;
+	
+}
+	
+body, h1, h2 {
+	font: 1.6rem 'lato','Compacta Std', 'News cycle';
+	font-weight: 100;
+	color: white;
+	overflow: hidden;
+}
+
+/*header {
+	height: toujours en vh
+}*/
+
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+li {
+	list-style-type: none;
+}
+
+figure {
+	margin:0;
+}
+/*-------------------------------------DEBUT*/
+
+body{
+background:#607D8B;
+background-repeat: no-repeat;
+height: 750px;
+border: 1px solid black;
+}
+
+.container h1,.container h2{
+	font-size: 2.6rem;
+	font-weight: 200;
+	display: table;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	color: black;	
+	
+	
+}
+
+.container ul{
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+	margin: 0 auto 100px auto;
+	display: table;
+}
+.cross{
+	transition: all 0.3s;
+}
+.cross::before{
+	display: block;
+	content:'\f00d';
+	margin: 5px;
+	font-size: 2.4rem;
+	color:black;
+	font-family: FontAwesome;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+}
+.contact{
+	width: 400px;
+	border:1px solid black;
+	color:black;
+	background: #B0BEC5;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left:-400px;
+}
+
+.contact h2 {
+	text-align: center;
+	margin-top:	30px;
+	margin-bottom: 30px;
+}
+
+.contact textarea {
+	width: 90%;
+	margin:0 auto;
+	position: relative;
+	left:20px;
+	height: 150px;
+	padding:15px;
+	margin-bottom:20px;
+}
+
+.contact input{
+	margin: 30px;
+	width: 80%;
+	margin-left:35px;
+
+}
+
+.contact input:nth-of-type(2){
+	margin-bottom: 30px;
+}
+
+.contact a{
+	border: 1px solid grey;
+	width: 20%;
+	text-align: center;
+	margin-left: 35%;
+}
+
+.conctact h2 {
+	margin-bottom: 100px;
+}
+
+textarea, input{
+	background: lightgray;
+	border:0.1rem solid grey;
+}
+
+.btn{
+	display: table;
+	width: 80px;
+	height: 40px;
+	margin-left: 140px;
+	margin: 10px auto;
+	cursor: pointer;
+	border: 1px solid black;	
+}
+
+.btn-primary{
+	background: lightblue;
+}
+
+.btn-secondary{
+	background: lightgoldenrodyellow;
+}
+
+.btn-emergency{
+	background: lightcoral;
+
+}
+.base li {
+	color:white;
+	padding-left: 10px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.base p {
+	display: inline-block;
+	cursor: pointer;	
+}
+
+i{
+	color:blue; 
+	padding: 5px;	
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+
+.fa-eye{
+	display: block;
+}
+.fa-eye.closed{
+	display: none;
+}
+.fa-eye-slash{
+	display: block
+}
+.fa-eye-slash.closed{
+	display: none;
+}
+
+/*<i class="fa fa-eye-slash" aria-hidden="true"></i>
+<i class="fa fa-eye" aria-hidden="true"></i>*/
